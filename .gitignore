@@ -8,3 +8,13 @@ instance/
 *.pyo
 *.pyd
 .python-version
+.claude/
+.vscode/
+IMPLEMENTATION_SUMMARY.md
+PORTFOLIO.md
+SECURITY.md
+claude.md
+demo.sh
+debug_signup.py
+fastapi_jwt_auth.egg-info/
+nginx.conf

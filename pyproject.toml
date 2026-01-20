@@ -1,7 +1,19 @@
 [project]
 name = "fastapi-jwt-auth"
-version = "0.1.0"
-description = "Add your description here"
+version = "1.0.0"
+description = "Production-ready JWT Authentication Service with FastAPI, SQLModel, and Pytest - Portfolio Project"
 readme = "README.md"
-requires-python = ">=3.14"
-dependencies = []
+license = "MIT"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.128.0",
+    "pwdlib[argon2]>=0.3.0",
+    "python-jose[cryptography]>=3.5.0",
+    "sqlmodel>=0.0.31",
+    "slowapi>=0.1.9",
+    "uvicorn>=0.34.0",
+    "python-multipart>=0.0.20",
+]
+
+
+

@@ -1,0 +1,1 @@
+"""AI Module for FastAPI JWT Authentication Service"""
