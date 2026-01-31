@@ -12,8 +12,12 @@ from unittest.mock import patch
 from app.core.config import settings
 from main import create_app
 from app.database import engine, get_session
+# Import all models to ensure they are registered with SQLModel
 from app.models.user import User
 from app.models.token_blacklist import TokenBlacklist
+from app.auth.session_service import UserSession
+from app.auth.audit_service import AuditLog
+from app.auth.api_key_service import ApiKey
 
 
 # Set test environment
